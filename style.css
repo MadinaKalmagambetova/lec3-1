@@ -1,0 +1,127 @@
+body {
+  background: rgb(65, 61, 61);
+  color: rgb(53, 53, 52);
+  <!-- text-transform: uppercase; -->
+  font-weight: 300;
+  font-size: 14px;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.letter 
+{
+color: rgb(11, 11, 141);
+font-size: 100%;
+}
+
+.container {
+    border: 5px solid salmon;
+    box-sizing: border-box;
+    max-width: 80%;
+    padding: 10px;
+    background-color: beige;
+}
+
+.cv {
+    border: 5px solid salmon;
+    box-sizing: border-box;
+    max-width: 80%;
+    padding: 10px;
+}
+
+img {
+  width: 200px;
+  height: 200px;
+  border-radius: 50%;
+}
+
+.name {
+    background-color: beige;
+    margin: 10px;
+    padding: 10px;
+    border-radius: 10px;
+}
+
+.exp-group {
+    margin: 10px;
+    padding: 10px;
+    background-color: rgb(6, 199, 135);
+    border-radius: 10px;
+    
+}
+
+.education {
+    margin: 10px;
+    padding: 10px;
+    background-color: rgb(6, 199, 135);
+    border-radius: 10px;
+}
+
+/* h2 {
+    color: rgb(255, 217, 0);
+    text-align: center;
+    text-decoration:line-through;
+    letter-spacing: 5px;
+    text-shadow: 2px 2px;
+} */
+
+a {
+    text-decoration: none;
+}
+
+a:visited 
+{
+color: rgb(10, 10, 10);
+}
+
+a:hover
+{
+color:darkgreen;
+text-decoration: overline;
+}
+
+.groups 
+{
+    color: rgb(11, 7, 253);
+    text-align: center;
+    letter-spacing: 5px;
+    text-shadow: 2px 2px;
+    text-decoration:line-through;
+    text-decoration-color: rgb(204, 250, 2);
+    text-transform: uppercase;
+}
+
+#my-photo
+{
+    border-radius: 0px;
+}
+
+#inst-img
+{
+    width: 50px;
+    height: 50px;
+}
+
+#fb-img
+{
+    width: 50px;
+    height: 50px;
+}
+
+.btn {
+    display: inline-block;
+    box-sizing: border-box;
+    padding: 10px;
+    margin: 0px 15px 15 px 0px;
+    border: 5px solid;
+    border-radius: 50%;
+    height: 46px;
+    font-size: 14px;
+    color:rgb(250, 248, 248);
+    overflow: hidden;
+    background-color: salmon;
+}
+
+.btn:hover {
+    background-color: #8f4c19
+}
+
